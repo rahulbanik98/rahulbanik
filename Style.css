@@ -596,65 +596,40 @@ h3
         padding: 5px;
     }
 
+
     .pInfo
     {
-        box-sizing: border-box;
-        
-        border: solid black 2px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-        margin-left: 150px;
-        margin-right: 150px;
-        background-color: rgba(138, 196, 197, 0.726);
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
-    
     .pInfo > p
     {
         text-align: center;
-        font-size: 25px;
-        font-family: 'Bebas Neue', cursive;;
+        font-size: 20px;
     }
 
-/*-------------------------------------LEFT CARD--------------------------*/
+    /*-------------------------------------LEFT CARD--------------------------*/
     
     .left_card
     {   
         position: relative;
         float: left;
-        left: 175px;
+        left: 120px;
         padding-top: 13px;
-        width: 220px;
+        width: 190px;
     }
 
-    /*-----------------------------------MIDDLE CARD------------------------*/
-
-    .middle_card
-    {   
-        float: left;
-        margin-left: 175px;
-        width: 220px;
-        margin-top: 10px;
-        box-sizing: border-box;
-    }
-
-    .middle_card > div > p
+    .left_card > div > p
     {
         font-size: 15px;
         text-align: center;
-        padding-top: 15px;
+        padding-top: 10px;
     }
 
-    
-    /*-------------------------------------RIGHT CARD----------------------------------------*/
-
-    .right_card
+    .left_card > div:nth-child(3) > p
     {
-        float: right;
-        position: relative;
-        width: 220px;
-        margin-top: 10px;
-        margin-right: 175px;
-        box-sizing: border-box;
+        font-size: 10px;
     }
 
 
