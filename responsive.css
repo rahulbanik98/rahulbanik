@@ -16,10 +16,11 @@
         padding: 5px;
     }
 
+
     .pInfo
     {
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
 
     .pInfo > p
@@ -34,7 +35,7 @@
     {   
         position: relative;
         float: left;
-        left: 120px;
+        left: 100px;
         padding-top: 13px;
         width: 190px;
     }
@@ -48,7 +49,7 @@
 
     .left_card > div:nth-child(3) > p
     {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     /*-----------------------------------MIDDLE CARD------------------------*/
@@ -56,7 +57,7 @@
     .middle_card
     {   
         float: left;
-        margin-left: 120px;
+        margin-left: 100px;
         width: 190px;
         margin-top: 10px;
         box-sizing: border-box;
@@ -69,7 +70,7 @@
         padding-top: 15px;
     }
 
-    
+        
     /*-------------------------------------RIGHT CARD----------------------------------------*/
 
     .right_card
