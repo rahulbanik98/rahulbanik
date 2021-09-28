@@ -35,7 +35,7 @@
     {   
         position: relative;
         float: left;
-        left: 100px;
+        left: 90px;
         padding-top: 13px;
         width: 190px;
     }
@@ -57,7 +57,7 @@
     .middle_card
     {   
         float: left;
-        margin-left: 100px;
+        margin-left: 90px;
         width: 190px;
         margin-top: 10px;
         box-sizing: border-box;
