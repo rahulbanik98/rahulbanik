@@ -5,7 +5,7 @@ import ExperienceMain from "./components/experienceSection/ExperienceMain";
 import FooterMain from "./components/footer/FooterMain";
 import HeroGradient from "./components/heroSection/HeroGradient";
 const LazyHeroMain = React.lazy(
-  () => import("./components/heroSection/HeroMain")
+  () => import("./components/heroSection/HeroMain"),
 );
 import NavbarMain from "./components/navbar/NavbarMain";
 import ProjectsMain from "./components/projectsSection/ProjectsMain";
