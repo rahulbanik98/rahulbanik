@@ -2,44 +2,46 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-import websiteImg2 from "../../../public/images/website-img-2.webp";
-import websiteImg3 from "../../../public/images/website-img-3.jpg";
-import websiteImg4 from "../../../public/images/website-img-4.jpg";
+import CG from "../../../public/images/CG.png";
+import BBARC from "../../../public/images/BBARC.png";
+import PKBUSA from "../../../public/images/PKBUSA.png";
+import GAMEDAY from "../../../public/images/GAMEDAY.png";
+import PKHEALTH from "../../../public/images/PKHEALTH.png";
 
 const projects = [
   {
     name: "Corporate Gear",
     year: "Mar2022",
     align: "right",
-    image: "../../../public/images/website-img-1.jpg",
+    image: CG,
     link: "corporategear",
   },
   {
     name: "Broken Bottle Arcade",
     year: "Sept2022",
     align: "left",
-    image: { websiteImg2 },
+    image: BBARC,
     link: "bbarcade",
   },
   {
     name: "Busa Corporategear",
     year: "Jan2023",
     align: "right",
-    image: { websiteImg3 },
+    image: PKBUSA,
     link: "busa.corporategear",
   },
   {
     name: "Gameday Gear",
     year: "May2024",
     align: "left",
-    image: { websiteImg4 },
+    image: GAMEDAY,
     link: "gamedaygear",
   },
   {
     name: "PKHealthgear",
     year: "May2024",
     align: "right",
-    image: { websiteImg4 },
+    image: PKHEALTH,
     link: "pkhealthgear",
   },
 ];
