@@ -6,7 +6,7 @@ const links = [
   { link: "Experience", section: "experience" },
   { link: "Projects", section: "projects" },
   { link: "Contact", section: "contact" },
-  { link: "CV Download", section: "cvDownload" }
+  { link: "CV Download", section: "cvDownload" },
 ];
 
 const NavbarLinks = () => {

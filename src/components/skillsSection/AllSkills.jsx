@@ -50,7 +50,7 @@ const skills = [
   },
   {
     skill: "SQL",
-    icon: TbSql ,
+    icon: TbSql,
   },
 ];
 

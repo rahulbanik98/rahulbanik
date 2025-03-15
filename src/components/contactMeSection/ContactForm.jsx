@@ -31,7 +31,7 @@ const ContactForm = () => {
         },
         (error) => {
           console.log("FAILED...", error.text);
-        }
+        },
       );
   };
 
