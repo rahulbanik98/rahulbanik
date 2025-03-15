@@ -8,32 +8,39 @@ import websiteImg4 from "../../../public/images/website-img-4.jpg";
 
 const projects = [
   {
-    name: "Vacation of Africa",
+    name: "Corporate Gear",
     year: "Mar2022",
     align: "right",
     image: "../../../public/images/website-img-1.jpg",
-    link: "#",
+    link: "corporategear",
   },
   {
-    name: "Moola App",
+    name: "Broken Bottle Arcade",
     year: "Sept2022",
     align: "left",
     image: { websiteImg2 },
-    link: "#",
+    link: "bbarcade",
   },
   {
-    name: "Tourzania",
+    name: "Busa Corporategear",
     year: "Jan2023",
     align: "right",
     image: { websiteImg3 },
-    link: "#",
+    link: "busa.corporategear",
   },
   {
-    name: "Bank of Luck",
+    name: "Gameday Gear",
     year: "May2024",
     align: "left",
     image: { websiteImg4 },
-    link: "#",
+    link: "gamedaygear",
+  },
+  {
+    name: "PKHealthgear",
+    year: "May2024",
+    align: "right",
+    image: { websiteImg4 },
+    link: "pkhealthgear",
   },
 ];
 
@@ -49,7 +56,7 @@ const ProjectsMain = () => {
         <ProjectsText />
       </motion.div>
       <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
-        {projects.map((project, index) => {
+        {projects?.map((project, index) => {
           return (
             <SingleProject
               key={index}
@@ -57,6 +64,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project?.link}
             />
           );
         })}
