@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const SingleSkill = ({ imgSvg, text }) => {
   return (
     <div className="hover:-translate-y-10 transition-all duration-500">
@@ -10,6 +12,12 @@ const SingleSkill = ({ imgSvg, text }) => {
       <div className="w-[100px] h-[200px] bg-orange absolute top-[50px] -z-10"></div>
     </div>
   );
+};
+
+// ✅ Corrected `propTypes`
+SingleSkill.propTypes = {
+  imgSvg: PropTypes.node.isRequired, // Ensures imgSvg is a valid React node (like an SVG or icon)
+  text: PropTypes.string.isRequired, // Ensures text is a string
 };
 
 export default SingleSkill;

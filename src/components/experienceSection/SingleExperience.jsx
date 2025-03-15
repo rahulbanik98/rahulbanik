@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
@@ -14,12 +15,22 @@ const SingleExperience = ({ experience }) => {
       <p className="text-orange">{experience.company}</p>
       <p className="text-lightGrey">{experience.date}</p>
       <ul className="list-disc mt-4 pl-4">
-        {experience.responsibilities.map((resp, index) => {
+        {experience.responsibilities?.map((resp, index) => {
           return <li key={index}>{resp}</li>;
         })}
       </ul>
     </motion.div>
   );
+};
+
+// Adding PropTypes validation
+SingleExperience.propTypes = {
+  experience: PropTypes.shape({
+    job: PropTypes.string.isRequired,
+    company: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    responsibilities: PropTypes.arrayOf(PropTypes.string).isRequired,
+  }).isRequired,
 };
 
 export default SingleExperience;

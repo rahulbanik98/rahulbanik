@@ -6,7 +6,7 @@ import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
-import { RiJavaFill, RiJavaLine, RiTailwindCssFill } from "react-icons/ri";
+import { RiJavaFill, RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { TbSql } from "react-icons/tb";
