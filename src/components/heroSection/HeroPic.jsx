@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
+import mainImg from "../../../public/images/rahul1-Photoroom.png";
 
 const HeroPic = () => {
   return (
@@ -12,7 +13,7 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../../public/images/rahul1-Photoroom.png"
+        src={mainImg}
         alt="Rahul Banik"
         className="max-h-[450px] w-auto"
       />
