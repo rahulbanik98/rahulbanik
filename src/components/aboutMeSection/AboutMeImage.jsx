@@ -1,4 +1,3 @@
-// import aboutMe from "../../public/images/about-me.jpg";
 import aboutMe from "../../../public/images/about-me.jpg";
 
 const AboutMeImage = () => {
