@@ -10,8 +10,14 @@ const ContactSocial = () => {
         link="https://www.linkedin.com/in/rahulbanik5/"
         Icon={FaLinkedinIn}
       />
-      <SingleContactSocial link="https://github.com/rahulbanik98" Icon={FiGithub} />
-      <SingleContactSocial link="https://www.instagram.com/rahulbanik5/" Icon={FaInstagram} />
+      <SingleContactSocial
+        link="https://github.com/rahulbanik98"
+        Icon={FiGithub}
+      />
+      <SingleContactSocial
+        link="https://www.instagram.com/rahulbanik5/"
+        Icon={FaInstagram}
+      />
     </div>
   );
 };
